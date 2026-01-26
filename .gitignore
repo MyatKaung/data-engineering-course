@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# Docker
+.docker/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# Data
+*.parquet
+*.csv
+!taxi_zone_lookup.csv # Keep small CSVs if needed, but usually data is excluded. 
+# Re-excluding just to be safe as per standard practice, but user can force add if they want.
+# Actually, let's exclude all data files to keep the repo clean.
+*.parquet
+*.csv
+
+# OS
+.DS_Store
