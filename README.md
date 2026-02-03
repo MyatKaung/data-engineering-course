@@ -7,7 +7,7 @@ This repository contains my solutions and coursework for the Data Engineering Zo
 | Week | Topic | Resources & Solutions |
 |------|-------|----------------------|
 | **Week 1** | Docker, SQL, and Terraform | [📂 Week 1 Homework](./Week1) |
-| **Week 2** | Workflow Orchestration | *Coming Soon* |
+| **Week 2** | Workflow Orchestration | [📂 Week 2 Homework](./Week2) |
 | **Week 3** | Data Warehouse | *Coming Soon* |
 | **Week 4** | Analytics Engineering | *Coming Soon* |
 | **Week 5** | Batch Processing (Spark) | *Coming Soon* |
