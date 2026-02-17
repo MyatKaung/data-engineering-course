@@ -1,0 +1,6 @@
+
+target/
+dbt_packages/
+logs/
+# Local raw taxi data
+data/

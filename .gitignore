@@ -29,3 +29,16 @@ venv/
 
 # OS
 .DS_Store
+
+# dbt
+**/target/
+**/dbt_packages/
+**/logs/
+
+# Large Data & Databases
+*.duckdb
+*.db
+**/data/
+**/*.parquet
+**/*.csv
+dbt-env/

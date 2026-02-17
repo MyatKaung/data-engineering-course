@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stg_green_tripdata
+    description: Cleaned green taxi trips with consistent types.
+    columns:
+      - name: pickup_datetime
+        data_tests:
+          - not_null
+      - name: dropoff_datetime
+        data_tests:
+          - not_null
+      - name: pickup_location_id
+        data_tests:
+          - not_null
+      - name: dropoff_location_id
+        data_tests:
+          - not_null
+
+  - name: stg_yellow_tripdata
+    description: Cleaned yellow taxi trips with consistent types.
+    columns:
+      - name: pickup_datetime
+        data_tests:
+          - not_null
+      - name: dropoff_datetime
+        data_tests:
+          - not_null
+      - name: pickup_location_id
+        data_tests:
+          - not_null
+      - name: dropoff_location_id
+        data_tests:
+          - not_null

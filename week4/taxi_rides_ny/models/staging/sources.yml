@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: ny_taxi
+    description: Raw NYC taxi trips loaded into DuckDB.
+    schema: main
+    tables:
+      - name: yellow_tripdata
+        description: Raw yellow taxi trip records.
+      - name: green_tripdata
+        description: Raw green taxi trip records.
+      - name: fhv_tripdata
+        description: Raw FHV trip records.

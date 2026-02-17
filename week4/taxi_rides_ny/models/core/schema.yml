@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_taxi_trips
+    description: Deduplicated union of green and yellow taxi trips with zone lookups.
+
+  - name: dim_zones
+    description: Taxi zone dimension from seed.
+    columns:
+      - name: location_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: fct_monthly_zone_revenue
+    description: Monthly revenue aggregated by zone and service type.

@@ -1,6 +1,6 @@
 variable "project" {
   description = "Project"
-  default     = "my-project-id" # user should replace this
+  default     = "my-project-id" 
 }
 
 variable "region" {
