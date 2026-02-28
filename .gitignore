@@ -42,3 +42,20 @@ venv/
 **/*.parquet
 **/*.csv
 dbt-env/
+.dlt/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# dlt specific
+.dlt/config.toml
+.dlt/secrets.toml
+
+# OS
+.DS_Store
+
+# bruin / logs
+.bruin.yml
+logs/runs
+logs/*.log
+logs/queries
