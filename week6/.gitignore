@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+
+# Data files (Download using wget)
+*.parquet
+*.csv
+
+# Spark output
+yellow_2025_11_repartitioned/
