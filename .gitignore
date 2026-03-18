@@ -59,3 +59,9 @@ __pycache__/
 logs/runs
 logs/*.log
 logs/queries
+
+# Week 7 local workshop clone / generated files
+week7/data-engineering-zoomcamp/
+week7/**/.venv/
+week7/**/__pycache__/
+week7/**/*.pyc
