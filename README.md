@@ -13,6 +13,7 @@ This repository contains my solutions and coursework for the Data Engineering Zo
 | **Week 5** | Module 5: Data Platforms | [📂 Week 5 Homework](./week5) |
 | **Week 6** | Batch Processing (Spark) | [📂 Week 6 Homework](./week6) |
 | **Week 7** | Stream Processing | [📂 Week 7 Homework](./week7) |
+| **Project** | Final Project | [📂 Enterprise Crypto Analytics](./projects/enterprise-crypto-analytics) |
 
 ## About
 This project follows the Data Engineering Zoomcamp curriculum. Each folder contains specific homework solutions, scripts, and configuration files for that week's topic.
