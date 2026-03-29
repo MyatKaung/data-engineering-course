@@ -1,0 +1,10 @@
+clickhouse-connect==0.7.19
+fastapi==0.115.12
+kafka-python-ng==2.2.3
+pandas==2.2.3
+pyarrow==18.1.0
+pyspark==3.5.5
+python-dotenv==1.0.1
+requests==2.31.0
+uvicorn==0.34.2
+websocket-client==1.8.0
